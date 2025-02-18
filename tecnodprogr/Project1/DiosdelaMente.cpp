@@ -29,8 +29,8 @@ struct school
 
 
 
-
+/*
 void main()
 {
 
-}
+}*/
