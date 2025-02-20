@@ -21,5 +21,8 @@
     <ClCompile Include="DiosdelaMente.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="enumsdelamente.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
