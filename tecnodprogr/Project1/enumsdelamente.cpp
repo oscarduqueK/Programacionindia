@@ -22,13 +22,13 @@ enum  class Outfit{
 	//INVALID,
 };
 
-void main()
-{
-	weapon weapon;
-	Outfit outfit; 
-
-	if (static_cast<int>(weapon::SHOTGUN) != static_cast<int>(Outfit::PANTALON))
-	{
-		cout << "a";
-	}
-}
+//void main()
+//{
+//	weapon weapon;
+//	Outfit outfit; 
+//
+//	if (static_cast<int>(weapon::SHOTGUN) != static_cast<int>(Outfit::PANTALON))
+//	{
+//		cout << "a";
+//	}
+//}

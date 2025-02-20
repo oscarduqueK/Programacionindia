@@ -52,9 +52,9 @@ void PointerAgay()
 	
 }
 
-/*
+
 void main()
 {
-	Pointers();
-	PointerAgay();
-}*/
+	Pointers();  
+	PointerAgay();  
+}

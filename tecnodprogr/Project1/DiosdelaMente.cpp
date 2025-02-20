@@ -31,33 +31,33 @@ struct school
 //	students a;
 //	students b;
 //
-//	Class c; 
+//	class c; 
 //
 //	school s;
 //	school s1;
 //
 //	school enti;
-//	enti.schoolname = "ENTI-UB";
+//	enti.schoolname = "enti-ub";
 //
-//	Class tecnologiesprogramacio;
-//	tecnologiesprogramacio.className = "Tecnologiesdeprogramacio";
-//	tecnologiesprogramacio.student[0].name = "PACO GERTE";
+//	class tecnologiesprogramacio;
+//	tecnologiesprogramacio.classame = "tecnologiesdeprogramacio";  
+//	tecnologiesprogramacio.student[0].name = "paco gerte";
 //	tecnologiesprogramacio.student[0].age = 33;
 //	tecnologiesprogramacio.student[0].id = 33333;
 //
-//	tecnologiesprogramacio.student[1].name = "ANA BOHUELES";
+//	tecnologiesprogramacio.student[1].name = "ana bohueles";
 //	tecnologiesprogramacio.student[1].age = 32;
 //	tecnologiesprogramacio.student[1].id = 33332;
 //
-//	tecnologiesprogramacio.student[2].name = "DIXON MAYASS";
+//	tecnologiesprogramacio.student[2].name = "dixon mayass";
 //	tecnologiesprogramacio.student[2].age = 18;
 //	tecnologiesprogramacio.student[2].id = 33331;
 //
-//	tecnologiesprogramacio.student[3].name = "ELVER GON";
+//	tecnologiesprogramacio.student[3].name = "elver gon";
 //	tecnologiesprogramacio.student[3].age = 30;
 //	tecnologiesprogramacio.student[3].id = 33330;
 //
-//	for (int i = 0; i < NUM_CLASES; ++i)
+//	for (int i = 0; i < num_clases; ++i)
 //	{
 //		enti.classes[i] = nullptr;
 //	}
@@ -66,23 +66,23 @@ struct school
 //
 //	//print all the class names of the school
 //
-//	for (int i = 0; i < NUM_CLASES; ++i)
+//	for (int i = 0; i < num_clases; ++i)
 //	{
 //		if (enti.classes[i] != nullptr)
 //		{
-//			cout << enti.classes[i]->className << endl;
-//			cout << (*enti.classes[i]).className << endl; //estas dos lineas son lo mismo pero de formas diferentes de hacerlo
-//			Class& c = (*enti.classes[i]);
+//			cout << enti.classes[i]->classname << endl;
+//			cout << (*enti.classes[i]).classname << endl; //estas dos lineas son lo mismo pero de formas diferentes de hacerlo
+//			class& c = (*enti.classes[i]);
 //		}
 //	}
 //
-//	for (int j = 0; j < NUM_CLASES; ++j)
+//	for (int j = 0; j < num_clases; ++j)
 //	{
 //		if (enti.classes[j] != nullptr)
 //		{
-//			for (int i = 0; i < NUM_STUDENTS; ++i)
+//			for (int i = 0; i < num_students; ++i)
 //			{
-//				if (enti.classes[j]->student[i].name[0] == 'A')
+//				if (enti.classes[j]->student[i].name[0] == 'a')
 //				{
 //					//cout << tecnologiesprogramacio.student[i].name << endl;
 //					cout << enti.classes[j]->student[i].name << endl;
@@ -92,11 +92,11 @@ struct school
 //	} cout << endl; 
 //
 //	
-//	for (int j = 0; j < NUM_CLASES; ++j)
+//	for (int j = 0; j < num_clases; ++j)
 //	{
 //		if (enti.classes[j] != nullptr)
 //		{
-//			for (int i = 0; i < NUM_STUDENTS; ++i)
+//			for (int i = 0; i < num_students; ++i)
 //			{
 //				if (enti.classes[j]->student[i].age < 19)
 //				{
